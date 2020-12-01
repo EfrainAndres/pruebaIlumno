@@ -1,0 +1,16 @@
+<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Title</th>
+        <th scope="col">Body</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let new of news">
+        <td>{{new.id}}</td>
+        <td>{{new.title}}</td>
+        <td>{{new.body}}</td>
+      </tr>
+    </tbody>
+  </table>
